@@ -46,6 +46,8 @@ This project ended up being a kind of a research project for us since we spent q
 
 The paper which we referred to has trained the model on 3 different datasets, for a period of 14 days. Where as with the resources we had(thanks to Google Colab), we just trained our model on a subset of the Places2 dataset for one night. Based on this limited amount of training, the model does not match the performance given by the original implementation, but it does a pretty good job. In future, should we get the time and resources to train the model completely, we would be able to improve our model a lot.  
 
+Our model can be downloaded from [here](https://drive.google.com/file/d/1_J-NgecLjU9PDvkmnJAo7-ghcQuqia2N/view?usp=sharing).
+
 ## 📷 How the desktop app looks 
 
 | ![Screenshot_20201114_023136](https://user-images.githubusercontent.com/41234408/99120923-b6591600-2621-11eb-8995-4ba92802416c.png) | ![Screenshot_20201114_023152](https://user-images.githubusercontent.com/41234408/99120920-b48f5280-2621-11eb-8f48-c6a9b5c6df5b.png)  |
