@@ -20,6 +20,14 @@ Sneaky Sketchers is built completely in [Python](https://www.python.org/). We ha
 
 For setting up the desktop app, head over [here](https://github.com/yashk2000/SneakySketchers/tree/main/application).
 
+### Video instructions for using the application 🎥
+
+Click on the image below to view a video of how to use the application. 
+
+<div align="center">
+    <a href="https://youtu.be/yhbVQI32spE"><img src="https://user-images.githubusercontent.com/41234408/99115100-eac7d480-2617-11eb-96c1-86f52501cb6e.png" width="720" height="420" alt="Sneaky Sketchers"></a>
+</div>
+
 ## :man_technologist: How do I contribute?
 - To get more detailed documentation, please check out our project's wiki. :book:
 - Before contributing do go through the [Code of Conduct](https://github.com/yashk2000/SneakySketchers/blob/main/CODE_OF_CONDUCT.md) :wrench:
