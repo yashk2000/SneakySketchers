@@ -1,14 +1,6 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'ui_window.ui'
-#
-# Created by: PyQt5 UI code generator 5.11.2
-#
-# WARNING! All changes made in this file will be lost!
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-class Ui_Form(object):
+class Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(940, 560)
@@ -49,20 +41,9 @@ class Ui_Form(object):
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.layoutWidget1)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.label_3 = QtWidgets.QLabel(self.layoutWidget1)
-        self.label_3.setObjectName("label_3")
-        self.horizontalLayout.addWidget(self.label_3)
-        self.comboBox = QtWidgets.QComboBox(self.layoutWidget1)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.comboBox.sizePolicy().hasHeightForWidth())
-        self.comboBox.setSizePolicy(sizePolicy)
-        self.comboBox.setObjectName("comboBox")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.horizontalLayout.addWidget(self.comboBox)
         self.layoutWidget2 = QtWidgets.QWidget(Form)
         self.layoutWidget2.setGeometry(QtCore.QRect(60, 100, 151, 31))
         self.layoutWidget2.setObjectName("layoutWidget2")
@@ -96,6 +77,9 @@ class Ui_Form(object):
         self.radioButton = QtWidgets.QRadioButton(self.groupBox)
         self.radioButton.setGeometry(QtCore.QRect(10, 20, 91, 20))
         self.radioButton.setObjectName("radioButton")
+        self.radioButton_2 = QtWidgets.QRadioButton(self.groupBox)
+        self.radioButton_2.setGeometry(QtCore.QRect(10, 50, 91, 20))
+        self.radioButton_2.setObjectName("radioButton_2")
         self.pushButton_5 = QtWidgets.QPushButton(Form)
         self.pushButton_5.setGeometry(QtCore.QRect(70, 140, 109, 22))
         self.pushButton_5.setObjectName("pushButton_5")
@@ -124,17 +108,13 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", " "))
-        self.label.setText(_translate("Form", "Image Inpainting"))
+        self.label.setText(_translate("Form", "Sneaky Sketcher"))
         self.label_4.setText(_translate("Form", "Input:"))
         self.pushButton.setText(_translate("Form", "Load"))
-        self.pushButton_3.setText(_translate("Form", "Inpaint"))
+        self.pushButton_3.setText(_translate("Form", "Fill"))
         self.pushButton_4.setText(_translate("Form", "Save"))
-        self.label_3.setText(_translate("Form", "Options:"))
-        self.comboBox.setItemText(0, _translate("Form", "None"))
-        self.comboBox.setItemText(1, _translate("Form", "Model 2"))
-        self.comboBox.setItemText(2, _translate("Form", "Model 1"))
-        self.label_2.setText(_translate("Form", "Bush Width:"))
-        self.radioButton.setText(_translate("Form", "free-form"))
-        self.pushButton_5.setText(_translate("Form", "draw/clear"))
-        self.pushButton_6.setText(_translate("Form", "Original/Output"))
-
+        self.label_2.setText(_translate("Form", "Brush Width:"))
+        self.radioButton.setText(_translate("Form", "Free"))
+        self.radioButton_2.setText(_translate("Form", "Rectangle"))
+        self.pushButton_5.setText(_translate("Form", "Draw/Clear"))
+        self.pushButton_6.setText(_translate("Form", "Original/Inpainted"))

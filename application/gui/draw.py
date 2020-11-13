@@ -70,8 +70,8 @@ class painter(QtWidgets.QWidget):
         self.ParentLink = parent
         self.setPalette(QtGui.QPalette(QtCore.Qt.white))
         self.setAutoFillBackground(True)
-        self.setMaximumSize(266, 266)
-        self.map = QtGui.QImage(266, 266, QtGui.QImage.Format_RGB32)
+        self.setMaximumSize(self.ParentLink.opt.loadSize[0], self.ParentLink.opt.loadSize[1])
+        self.map = QtGui.QImage(self.ParentLink.opt.loadSize[0], self.ParentLink.opt.loadSize[1], QtGui.QImage.Format_RGB32)
         self.map.fill(QtCore.Qt.black)
         self.image = image
         self.shape = self.ParentLink.shape
