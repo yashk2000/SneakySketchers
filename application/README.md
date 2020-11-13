@@ -15,6 +15,8 @@ pip install -r requirements.txt
 
 ## 🖥️ Running the frontend
 
+Download the model and place it in tis directory. You can download the model from [here](https://drive.google.com/file/d/1_J-NgecLjU9PDvkmnJAo7-ghcQuqia2N/view?usp=sharing).
+
 To run the desktop app now, run the following command: 
 
 ```bash
